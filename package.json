@@ -1,0 +1,33 @@
+{
+  "name": "simple-api",
+  "description": "Test application for affluent",
+  "author": "Mikhail Plotnikov",
+  "license": "MIT",
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "lodash.clonedeep": "^4.5"
+  },
+  "peerDependencies": {
+    "axios": "^0.21"
+  },
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "typescript": "^3.6"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "version": "1.0.0",
+  "keywords": [
+    "test",
+    "api"
+  ]
+}

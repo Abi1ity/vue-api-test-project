@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "dist",
+    "removeComments": false,
+    "declaration": true,
+    "lib": [
+      "es2018",
+      "DOM"
+    ],
+  },
+  "include": [
+    "src/index.ts"
+  ]
+}
